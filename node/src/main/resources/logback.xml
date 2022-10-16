@@ -1,6 +1,6 @@
 <configuration>
 
-    <property name="HOME_LOG" value="/var/log/postlife/bot/tg-bot/node.log"/>
+    <property name="HOME_LOG" value="./log/postlife/bot/tg-bot/node.log"/>
 
     <appender name="FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${HOME_LOG}</file>
